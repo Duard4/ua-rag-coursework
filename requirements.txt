@@ -1,0 +1,10 @@
+numpy==2.4.4
+scipy==1.17.1
+scikit-learn==1.8.0
+matplotlib==3.10.9
+pymorphy3==2.0.6
+pymorphy3-dicts-uk==2.4.1.1.1663094765
+spacy==3.8.16
+uk_core_news_lg @ https://github.com/explosion/spacy-models/releases/download/uk_core_news_lg-3.8.0/uk_core_news_lg-3.8.0-py3-none-any.whl
+# лише для необов'язкового кроку embed_hf.py:
+# sentence-transformers

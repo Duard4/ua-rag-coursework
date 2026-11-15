@@ -1,0 +1,43 @@
+{
+ "n_test": 9686,
+ "fail_R10": 678,
+ "fail_share": 0.06999793516415445,
+ "zero_lemma_overlap_share_among_fail": 0.13274336283185842,
+ "zero_lemma_overlap_share_among_ok": 0.0013321492007104796,
+ "median_qlen_fail": 6.0,
+ "median_qlen_ok": 8.0,
+ "median_overlap_fail": 2.0,
+ "median_overlap_ok": 5.0,
+ "fail_share_docs_ge8_q": 0.08093097064268712,
+ "fail_share_docs_lt8_q": 0.06299745977984758,
+ "n_test_answerable": 7631,
+ "n_empty_answer_total": 2927,
+ "mrr10_answerable_only": 0.8090249046807819,
+ "mrr10_unanswerable_only": 0.7887347931873478,
+ "examples": [
+  {
+   "q": "Де люди, які використовують iPod у літаках, можуть переглядати інтерфейс пристрою?",
+   "gold_rank": 12,
+   "overlap": 3,
+   "answer": "на окремих дисплеях, що знаходяться на спинках сидінь"
+  },
+  {
+   "q": "Якого учасника несподівано дискваліфікували за тиждень топ чотирьох?",
+   "gold_rank": 11,
+   "overlap": 2,
+   "answer": "Кріса Дотрі"
+  },
+  {
+   "q": "Хто був керівником Королівського інституту британських архітекторів у 2007 році?",
+   "gold_rank": 37,
+   "overlap": 4,
+   "answer": "Джек Прінгл"
+  },
+  {
+   "q": "Коли AFL оголосила, що не припиняє свою роботу?",
+   "gold_rank": 65,
+   "overlap": 4,
+   "answer": "4 серпня"
+  }
+ ]
+}

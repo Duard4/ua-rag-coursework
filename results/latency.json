@@ -1,0 +1,10 @@
+{
+ "index_build_s_3views": 3.5610618591308594,
+ "sentence_index_s": 0.23671221733093262,
+ "n_sentences": 10284,
+ "n_queries_timed": 500,
+ "retrieve_ms_mean": 13.650291621995166,
+ "select_ms_mean": 0.423588511995149,
+ "retrieve_ms_p95": 15.090991049646616,
+ "select_ms_p95": 0.5149874501967133
+}

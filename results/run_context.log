@@ -1,0 +1,33 @@
+verbatim subset: dev 3301 test 7631
+dev lam 0.0 0.7628
+dev lam 0.25 0.7743
+dev lam 0.5 0.787
+dev lam 1.0 0.8022
+dev lam 2.0 0.8134
+dev lam 4.0 0.8155
+dev lam 8.0 0.8079
+40 trunc_topk [0.4934, 0.4821, 0.5049] 0.28
+40 sent_best_first [0.6745, 0.6636, 0.6851] 0.371
+40 sent_orig_order [0.6766, 0.6657, 0.6873] 0.371
+40 sent_no_prior [0.6356, 0.6244, 0.6462] 0.551
+40 oracle_gold_doc_trunc [0.6531, 0.6428, 0.6637] 0.0
+80 trunc_topk [0.7088, 0.6986, 0.719] 0.392
+80 sent_best_first [0.8034, 0.7941, 0.8123] 0.425
+80 sent_orig_order [0.807, 0.7978, 0.8159] 0.425
+80 sent_no_prior [0.7623, 0.7523, 0.7721] 0.673
+80 oracle_gold_doc_trunc [0.9056, 0.8994, 0.9123] 0.0
+120 trunc_topk [0.796, 0.7869, 0.8051] 0.508
+120 sent_best_first [0.8429, 0.8345, 0.8511] 0.524
+120 sent_orig_order [0.8469, 0.8387, 0.8551] 0.524
+120 sent_no_prior [0.8114, 0.8025, 0.8202] 0.737
+120 oracle_gold_doc_trunc [0.9764, 0.973, 0.9798] 0.0
+200 trunc_topk [0.8561, 0.8479, 0.864] 0.664
+200 sent_best_first [0.8768, 0.8691, 0.8844] 0.669
+200 sent_orig_order [0.8814, 0.8737, 0.8887] 0.669
+200 sent_no_prior [0.8585, 0.8507, 0.8665] 0.792
+200 oracle_gold_doc_trunc [0.9979, 0.9967, 0.999] 0.0
+400 trunc_topk [0.9058, 0.8994, 0.9122] 0.802
+400 sent_best_first [0.9034, 0.8969, 0.9102] 0.802
+400 sent_orig_order [0.908, 0.9017, 0.9146] 0.802
+400 sent_no_prior [0.9005, 0.8941, 0.9075] 0.819
+400 oracle_gold_doc_trunc [0.9999, 0.9996, 1.0] 0.0
